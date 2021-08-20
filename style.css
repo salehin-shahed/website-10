@@ -1,0 +1,155 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header Section */
+
+.header {
+    background: #3498db;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+
+.header-logo img {
+    width: 220px;
+
+}
+
+.header-menu ul {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.header-menu ul li {
+    display: inline-block;
+    margin-left: -5px;
+
+}
+
+.header-menu ul li a {
+    padding: 20px 30px;
+    border-right: 1px solid #ddd;
+    line-height: 33px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .5s;
+}
+
+.header-menu ul li a:hover {
+    background: #2980b9;
+}
+
+.header-menu ul li a:first-child {
+    border-left: 1px solid #ddd;
+}
+
+
+/* Banner Section */
+
+.banner {
+    background-image: url(./images/banner.jpg);
+    padding: 300px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.banner-text h2 {
+    display: inline-block;
+    background: #1f4a5a;
+    padding: 20px 40px;
+    border-radius: 17px;
+    color: #fff;
+}
+
+.banner-text h3 {
+    width: 350px;
+    margin: auto;
+    background: #093977;
+    color: #fff;
+    padding: 13px;
+    border-radius: 13px;
+    margin-top: 15px;
+}
+
+
+/* About Section */
+
+.about {
+    background: #ebf0f1;
+}
+
+
+/* Service Section */
+
+.service {
+    background: #f9f9f9;
+}
+
+.service span {
+    background: #3286af;
+    display: block;
+    width: 60px;
+    height: 55px;
+    margin: auto;
+    line-height: 55px;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 20px 0 20px 0;
+    margin-bottom: 17px;
+}
+
+
+/* Product Section */
+
+.product img {
+    max-width: 100%;
+}
+
+.product {
+    background: #e7eaea;
+}
+
+.product-list h2 {
+    text-align: center;
+    border-bottom: 3px solid black;
+    margin-bottom: 30px;
+}
+
+.product-list ul li {
+    list-style: none;
+    border: 1px solid #ddd;
+    padding: 7px;
+    background: #fafafa;
+    border-radius: 10px;
+    margin-bottom: 17px;
+}
+
+
+/* Footer Section */
+
+.footer {
+    background: #2e3d4d;
+    padding: 20px 0;
+}
+
+.footer-left {
+    color: #fff;
+}
+
+.footer-right {
+    text-align: right
+}
+
+.footer p {
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.footer-right a {
+    padding-right: 10px;
+    color: #ddd;
+}
